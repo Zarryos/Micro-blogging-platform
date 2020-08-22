@@ -10,6 +10,9 @@
 		04AA865A77568756FC1ADBA2 /* Pods_Micro_blogging_platform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFC8252220396C0C97422A7 /* Pods_Micro_blogging_platform.framework */; };
 		35ABE579BFBD3E2E4B4A458D /* Pods_Micro_blogging_platformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF630454E3DCDAEB3D28266D /* Pods_Micro_blogging_platformTests.framework */; };
 		ECDEB5F33BA398C24AD721AF /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C89B96F433B17C5FA23DA5 /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework */; };
+		EE2403E024F16EBA00E91414 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403DF24F16EBA00E91414 /* AsyncImage.swift */; };
+		EE2403E224F16EEE00E91414 /* ImageLoaderObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403E124F16EEE00E91414 /* ImageLoaderObservable.swift */; };
+		EE2403E424F16F3400E91414 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403E324F16F3400E91414 /* ImageCache.swift */; };
 		EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */; };
 		EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */; };
 		EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */; };
@@ -61,6 +64,9 @@
 		B883F3CBA6E1AD36CD2DE218 /* Pods-Micro blogging platformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platformTests.release.xcconfig"; path = "Target Support Files/Pods-Micro blogging platformTests/Pods-Micro blogging platformTests.release.xcconfig"; sourceTree = "<group>"; };
 		BCD2396326403FA9EED0592A /* Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig"; path = "Target Support Files/Pods-Micro blogging platform-Micro blogging platformUITests/Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BF630454E3DCDAEB3D28266D /* Pods_Micro_blogging_platformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Micro_blogging_platformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2403DF24F16EBA00E91414 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		EE2403E124F16EEE00E91414 /* ImageLoaderObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderObservable.swift; sourceTree = "<group>"; };
+		EE2403E324F16F3400E91414 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		EE59F4DA24F1488500D16EA1 /* Micro blogging platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Micro blogging platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -238,6 +244,7 @@
 				EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */,
 				EE59F52924F1545700D16EA1 /* PostObservable.swift */,
 				EE59F53524F15B0200D16EA1 /* CommentObservable.swift */,
+				EE2403E124F16EEE00E91414 /* ImageLoaderObservable.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 				EE59F52224F1534B00D16EA1 /* Author */,
 				EE59F52324F1535400D16EA1 /* Post */,
 				EE59F52424F1535A00D16EA1 /* Comment */,
+				EE2403DF24F16EBA00E91414 /* AsyncImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +267,7 @@
 				EE59F51A24F14BA400D16EA1 /* Author.swift */,
 				EE59F52024F1523D00D16EA1 /* Post.swift */,
 				EE59F53124F1592F00D16EA1 /* Comment.swift */,
+				EE2403E324F16F3400E91414 /* ImageCache.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -538,7 +547,10 @@
 				EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */,
 				EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */,
 				EE59F53224F1592F00D16EA1 /* Comment.swift in Sources */,
+				EE2403E224F16EEE00E91414 /* ImageLoaderObservable.swift in Sources */,
+				EE2403E424F16F3400E91414 /* ImageCache.swift in Sources */,
 				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,
+				EE2403E024F16EBA00E91414 /* AsyncImage.swift in Sources */,
 				EE59F52624F1538A00D16EA1 /* PostRow.swift in Sources */,
 				EE59F53024F157FF00D16EA1 /* AppNavigationView.swift in Sources */,
 				EE59F53424F1598400D16EA1 /* CommentRow.swift in Sources */,

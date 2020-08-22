@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct PostList: View {
+struct PostsList: View {
     @ObservedObject var postsObservable = PostObservable()
     
     var body: some View {
@@ -22,6 +22,6 @@ struct PostList: View {
 
 struct PostList_Previews: PreviewProvider {
     static var previews: some View {
-        PostList()
+        PostsList()
     }
 }

@@ -10,12 +10,25 @@ import SwiftUI
 
 struct PostRow: View {
     var post: Post
+    @Environment(\.imageCache) var postImageCache: ImageCache
     
     var body: some View {
-        VStack (alignment: .leading) {
-            Text(post.title)
-                .font(.headline)
-                .multilineTextAlignment(.leading)
+        HStack {
+            AsyncImage(
+                url: post.imageUrl,
+                placeholder: Image("post-placeholder").resizable(),
+                cache: postImageCache,
+                configuration: { $0.resizable() })
+                .frame(width: 64, height: 64)
+                .clipShape(RoundedRectangle(cornerRadius: 8))
+                .shadow(radius: 10)
+                .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.white, lineWidth: 4))
+            
+            VStack (alignment: .leading) {
+                Text(post.title)
+                    .font(.headline)
+                    .multilineTextAlignment(.leading)
+            }
         }
     }
 }

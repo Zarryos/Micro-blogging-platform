@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51824F14A3300D16EA1 /* AuthorsList.swift */; };
 		EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51A24F14BA400D16EA1 /* Author.swift */; };
 		EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */; };
+		EE59F51F24F14FFD00D16EA1 /* AuthorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		EE59F51824F14A3300D16EA1 /* AuthorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsList.swift; sourceTree = "<group>"; };
 		EE59F51A24F14BA400D16EA1 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRow.swift; sourceTree = "<group>"; };
+		EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +119,6 @@
 				29DA584E7F4DE3FA55D0F2E9 /* Pods-Micro blogging platformTests.debug.xcconfig */,
 				B883F3CBA6E1AD36CD2DE218 /* Pods-Micro blogging platformTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,6 +214,7 @@
 		EE59F51324F149A700D16EA1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -473,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE59F51F24F14FFD00D16EA1 /* AuthorObservable.swift in Sources */,
 				EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */,
 				EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */,
 				EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */,

@@ -24,6 +24,7 @@
 		EE59F51F24F14FFD00D16EA1 /* AuthorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */; };
 		EE59F52124F1523D00D16EA1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52024F1523D00D16EA1 /* Post.swift */; };
 		EE59F52624F1538A00D16EA1 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52524F1538A00D16EA1 /* PostRow.swift */; };
+		EE59F52A24F1545700D16EA1 /* PostObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52924F1545700D16EA1 /* PostObservable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorObservable.swift; sourceTree = "<group>"; };
 		EE59F52024F1523D00D16EA1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		EE59F52524F1538A00D16EA1 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		EE59F52924F1545700D16EA1 /* PostObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostObservable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */,
+				EE59F52924F1545700D16EA1 /* PostObservable.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE59F52A24F1545700D16EA1 /* PostObservable.swift in Sources */,
 				EE59F51F24F14FFD00D16EA1 /* AuthorObservable.swift in Sources */,
 				EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */,
 				EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */,

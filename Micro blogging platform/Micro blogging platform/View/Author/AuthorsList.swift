@@ -12,8 +12,12 @@ struct AuthorsList: View {
     @ObservedObject var authorsObservable = AuthorObservable()
     
     var body: some View {
-        List (authorsObservable.authors) { author in
-            AuthorRow(author: author)
+        NavigationView {
+            List (authorsObservable.authors) { author in
+                NavigationLink(destination: PostList()) {
+                    AuthorRow(author: author)
+                }
+            }
         }
     }
 }

@@ -14,6 +14,7 @@
 		EE2403E224F16EEE00E91414 /* ImageLoaderObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403E124F16EEE00E91414 /* ImageLoaderObservable.swift */; };
 		EE2403E424F16F3400E91414 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403E324F16F3400E91414 /* ImageCache.swift */; };
 		EE2403E624F170B700E91414 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403E524F170B700E91414 /* EnvironmentValues.swift */; };
+		EE2403E824F176AE00E91414 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2403E724F176AE00E91414 /* DateFormatter.swift */; };
 		EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */; };
 		EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */; };
 		EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */; };
@@ -69,6 +70,7 @@
 		EE2403E124F16EEE00E91414 /* ImageLoaderObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderObservable.swift; sourceTree = "<group>"; };
 		EE2403E324F16F3400E91414 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
 		EE2403E524F170B700E91414 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		EE2403E724F176AE00E91414 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		EE59F4DA24F1488500D16EA1 /* Micro blogging platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Micro blogging platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				EEB7406824F15F7C00F2D5E7 /* DisplayOrder.swift */,
+				EE2403E724F176AE00E91414 /* DateFormatter.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 				EE2403E024F16EBA00E91414 /* AsyncImage.swift in Sources */,
 				EE59F52624F1538A00D16EA1 /* PostRow.swift in Sources */,
 				EE59F53024F157FF00D16EA1 /* AppNavigationView.swift in Sources */,
+				EE2403E824F176AE00E91414 /* DateFormatter.swift in Sources */,
 				EE59F53424F1598400D16EA1 /* CommentRow.swift in Sources */,
 				EE59F53624F15B0200D16EA1 /* CommentObservable.swift in Sources */,
 				EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */,

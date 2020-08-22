@@ -11,6 +11,11 @@ import Foundation
 struct Comment: Decodable, Identifiable {
     var id: Int
     var date: String
+    var formattedDate: Date? {
+        get {
+            return date.toDate()
+        }
+    }
     var body: String
     var userName: String
     var email: String

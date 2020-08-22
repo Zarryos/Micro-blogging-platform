@@ -11,6 +11,11 @@ import Foundation
 struct Post: Decodable, Identifiable {
     var id: Int
     var date: String
+    var formattedDate: Date? {
+        get {
+            return date.toDate()
+        }
+    }
     var title: String
     var body: String
     var imageUrl: URL

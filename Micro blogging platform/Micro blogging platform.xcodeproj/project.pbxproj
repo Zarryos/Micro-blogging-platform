@@ -156,6 +156,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EE2403ED24F181CB00E91414 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EE2403DF24F16EBA00E91414 /* AsyncImage.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		EE59F4D124F1488500D16EA1 = {
 			isa = PBXGroup;
 			children = (
@@ -266,7 +274,7 @@
 				EE59F52224F1534B00D16EA1 /* Author */,
 				EE59F52324F1535400D16EA1 /* Post */,
 				EE59F52424F1535A00D16EA1 /* Comment */,
-				EE2403DF24F16EBA00E91414 /* AsyncImage.swift */,
+				EE2403ED24F181CB00E91414 /* Image */,
 			);
 			path = View;
 			sourceTree = "<group>";

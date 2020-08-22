@@ -21,7 +21,7 @@ struct AuthorRow: View {
                 configuration: { $0.resizable() })
                 .frame(width: 64, height: 64)
                 .clipShape(Circle())
-                .shadow(radius: 10)
+                .shadow(radius: 8)
                 .overlay(Circle().stroke(Color.white, lineWidth: 4))
                 
             Text(author.name)

@@ -10,10 +10,21 @@ import SwiftUI
 
 struct CommentRow: View {
     var comment: Comment
+    @Environment(\.imageCache) var commentImageCache: ImageCache
     
     var body: some View {
         VStack (alignment: .leading){
             HStack {
+                AsyncImage(
+                    url: comment.avatarUrl,
+                    placeholder: Image("person-placeholder").resizable(),
+                    cache: commentImageCache,
+                    configuration: { $0.resizable() })
+                    .frame(width: 32, height: 32)
+                    .clipShape(Circle())
+                    .shadow(radius: 4)
+                    .overlay(Circle().stroke(Color.white, lineWidth: 2))
+                
                  VStack (alignment: .leading) {
                      Text(comment.userName)
                          .font(.headline)

@@ -21,7 +21,7 @@ struct PostRow: View {
                 configuration: { $0.resizable() })
                 .frame(width: 64, height: 64)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
-                .shadow(radius: 10)
+                .shadow(radius: 8)
                 .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.white, lineWidth: 4))
             
             VStack (alignment: .leading) {

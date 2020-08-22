@@ -10,12 +10,28 @@ import SwiftUI
 
 struct AuthorRow: View {
     var author: Author
-
-        var body: some View {
-            VStack (alignment: .leading) {
-                Text(author.name)
-                    .font(.title)
-            }.padding(8)
+    @Environment(\.imageCache) var authorAvatarCache: ImageCache
+    
+    var body: some View {
+        HStack {
+            AsyncImage(
+                url: author.avatarUrl,
+                placeholder: Image("").resizable(),
+                cache: authorAvatarCache,
+                configuration: { $0.resizable() })
+                .frame(width: 64, height: 64)
+                .clipShape(Circle())
+                .shadow(radius: 10)
+                .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                
+            Text(author.name)
+                .font(.title)
+                .lineLimit(1)
+                .minimumScaleFactor(0.5)
+                .padding()
+            
+            Spacer()
+        }.padding(8)
     }
 }
 

@@ -10,12 +10,12 @@
 		EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */; };
 		EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */; };
 		EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */; };
-		EE59F4E524F1488500D16EA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E424F1488500D16EA1 /* ContentView.swift */; };
 		EE59F4E724F1488600D16EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4E624F1488600D16EA1 /* Assets.xcassets */; };
 		EE59F4EA24F1488600D16EA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4E924F1488600D16EA1 /* Preview Assets.xcassets */; };
 		EE59F4ED24F1488600D16EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4EB24F1488600D16EA1 /* LaunchScreen.storyboard */; };
 		EE59F4F824F1488600D16EA1 /* Micro_blogging_platformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */; };
 		EE59F50324F1488600D16EA1 /* Micro_blogging_platformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */; };
+		EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51824F14A3300D16EA1 /* AuthorsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EE59F4E224F1488500D16EA1 /* Micro_blogging_platform.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Micro_blogging_platform.xcdatamodel; sourceTree = "<group>"; };
-		EE59F4E424F1488500D16EA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE59F4E624F1488600D16EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE59F4E924F1488600D16EA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE59F4EC24F1488600D16EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		EE59F4FE24F1488600D16EA1 /* Micro blogging platformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Micro blogging platformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_blogging_platformUITests.swift; sourceTree = "<group>"; };
 		EE59F50424F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE59F51824F14A3300D16EA1 /* AuthorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +101,14 @@
 		EE59F4DC24F1488500D16EA1 /* Micro blogging platform */ = {
 			isa = PBXGroup;
 			children = (
+				EE59F51524F149AC00D16EA1 /* Model */,
+				EE59F51424F149AA00D16EA1 /* View */,
+				EE59F51324F149A700D16EA1 /* Controller */,
+				EE59F51224F149A300D16EA1 /* Helper */,
+				EE59F51124F1499F00D16EA1 /* Extension */,
+				EE59F51024F1499A00D16EA1 /* Ressources */,
 				EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */,
 				EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */,
-				EE59F4E424F1488500D16EA1 /* ContentView.swift */,
-				EE59F4E624F1488600D16EA1 /* Assets.xcassets */,
 				EE59F4EB24F1488600D16EA1 /* LaunchScreen.storyboard */,
 				EE59F4EE24F1488600D16EA1 /* Info.plist */,
 				EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */,
@@ -137,6 +141,50 @@
 				EE59F50424F1488600D16EA1 /* Info.plist */,
 			);
 			path = "Micro blogging platformUITests";
+			sourceTree = "<group>";
+		};
+		EE59F51024F1499A00D16EA1 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F4E624F1488600D16EA1 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		EE59F51124F1499F00D16EA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EE59F51224F149A300D16EA1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EE59F51324F149A700D16EA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE59F51424F149AA00D16EA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F51824F14A3300D16EA1 /* AuthorsList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EE59F51524F149AC00D16EA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +320,7 @@
 			files = (
 				EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */,
 				EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */,
-				EE59F4E524F1488500D16EA1 /* ContentView.swift in Sources */,
+				EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */,
 				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

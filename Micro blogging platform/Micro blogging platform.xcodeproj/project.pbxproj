@@ -22,6 +22,7 @@
 		EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51A24F14BA400D16EA1 /* Author.swift */; };
 		EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */; };
 		EE59F51F24F14FFD00D16EA1 /* AuthorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */; };
+		EE59F52124F1523D00D16EA1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52024F1523D00D16EA1 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		EE59F51A24F14BA400D16EA1 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRow.swift; sourceTree = "<group>"; };
 		EE59F51E24F14FFD00D16EA1 /* AuthorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorObservable.swift; sourceTree = "<group>"; };
+		EE59F52024F1523D00D16EA1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				EE59F51A24F14BA400D16EA1 /* Author.swift */,
+				EE59F52024F1523D00D16EA1 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				EE59F51F24F14FFD00D16EA1 /* AuthorObservable.swift in Sources */,
 				EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */,
 				EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */,
+				EE59F52124F1523D00D16EA1 /* Post.swift in Sources */,
 				EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */,
 				EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */,
 				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,

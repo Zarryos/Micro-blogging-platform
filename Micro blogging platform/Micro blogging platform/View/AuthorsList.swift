@@ -9,8 +9,12 @@
 import SwiftUI
 
 struct AuthorsList: View {
+    @ObservedObject var authorsObservable = AuthorObservable()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List (authorsObservable.authors) { author in
+            AuthorRow(author: author)
+        }
     }
 }
 

@@ -16,7 +16,7 @@ struct AuthorRow: View {
         HStack {
             AsyncImage(
                 url: author.avatarUrl,
-                placeholder: Image("").resizable(),
+                placeholder: Image("person-placeholder").resizable(),
                 cache: authorAvatarCache,
                 configuration: { $0.resizable() })
                 .frame(width: 64, height: 64)

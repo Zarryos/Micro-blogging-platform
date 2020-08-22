@@ -36,7 +36,13 @@ struct CommentRow: View {
                  Spacer()
             }
             
-            Text(comment.body)
+            VStack (alignment: .leading) {
+                Text("\"" + comment.body + "\"")
+                
+                Text(comment.formattedDate?.toString() ?? "Unkown date")
+                    .font(.footnote)
+                    .foregroundColor(Color.gray)
+            }
         }.padding()
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AA865A77568756FC1ADBA2 /* Pods_Micro_blogging_platform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFC8252220396C0C97422A7 /* Pods_Micro_blogging_platform.framework */; };
+		35ABE579BFBD3E2E4B4A458D /* Pods_Micro_blogging_platformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF630454E3DCDAEB3D28266D /* Pods_Micro_blogging_platformTests.framework */; };
+		ECDEB5F33BA398C24AD721AF /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C89B96F433B17C5FA23DA5 /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework */; };
 		EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */; };
 		EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */; };
 		EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */; };
@@ -38,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CB73D63F984694E12996906 /* Pods-Micro blogging platform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platform.release.xcconfig"; path = "Target Support Files/Pods-Micro blogging platform/Pods-Micro blogging platform.release.xcconfig"; sourceTree = "<group>"; };
+		29DA584E7F4DE3FA55D0F2E9 /* Pods-Micro blogging platformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platformTests.debug.xcconfig"; path = "Target Support Files/Pods-Micro blogging platformTests/Pods-Micro blogging platformTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43AACD34E58249A8074BA06F /* Pods-Micro blogging platform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platform.debug.xcconfig"; path = "Target Support Files/Pods-Micro blogging platform/Pods-Micro blogging platform.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFC8252220396C0C97422A7 /* Pods_Micro_blogging_platform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Micro_blogging_platform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C89B96F433B17C5FA23DA5 /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C7A98C3977958D348EA262F /* Pods-Micro blogging platform-Micro blogging platformUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platform-Micro blogging platformUITests.debug.xcconfig"; path = "Target Support Files/Pods-Micro blogging platform-Micro blogging platformUITests/Pods-Micro blogging platform-Micro blogging platformUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B883F3CBA6E1AD36CD2DE218 /* Pods-Micro blogging platformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platformTests.release.xcconfig"; path = "Target Support Files/Pods-Micro blogging platformTests/Pods-Micro blogging platformTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCD2396326403FA9EED0592A /* Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig"; path = "Target Support Files/Pods-Micro blogging platform-Micro blogging platformUITests/Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF630454E3DCDAEB3D28266D /* Pods_Micro_blogging_platformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Micro_blogging_platformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59F4DA24F1488500D16EA1 /* Micro blogging platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Micro blogging platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04AA865A77568756FC1ADBA2 /* Pods_Micro_blogging_platform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35ABE579BFBD3E2E4B4A458D /* Pods_Micro_blogging_platformTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDEB5F33BA398C24AD721AF /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B80B736BDC2E3EB97CCF524 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AFC8252220396C0C97422A7 /* Pods_Micro_blogging_platform.framework */,
+				70C89B96F433B17C5FA23DA5 /* Pods_Micro_blogging_platform_Micro_blogging_platformUITests.framework */,
+				BF630454E3DCDAEB3D28266D /* Pods_Micro_blogging_platformTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D3DA12A9AED50A923A8CD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43AACD34E58249A8074BA06F /* Pods-Micro blogging platform.debug.xcconfig */,
+				1CB73D63F984694E12996906 /* Pods-Micro blogging platform.release.xcconfig */,
+				9C7A98C3977958D348EA262F /* Pods-Micro blogging platform-Micro blogging platformUITests.debug.xcconfig */,
+				BCD2396326403FA9EED0592A /* Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig */,
+				29DA584E7F4DE3FA55D0F2E9 /* Pods-Micro blogging platformTests.debug.xcconfig */,
+				B883F3CBA6E1AD36CD2DE218 /* Pods-Micro blogging platformTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EE59F4D124F1488500D16EA1 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +128,8 @@
 				EE59F4F624F1488600D16EA1 /* Micro blogging platformTests */,
 				EE59F50124F1488600D16EA1 /* Micro blogging platformUITests */,
 				EE59F4DB24F1488500D16EA1 /* Products */,
+				84D3DA12A9AED50A923A8CD3 /* Pods */,
+				0B80B736BDC2E3EB97CCF524 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE59F50724F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platform" */;
 			buildPhases = (
+				898349DC3185CCA030B8A539 /* [CP] Check Pods Manifest.lock */,
 				EE59F4D624F1488500D16EA1 /* Sources */,
 				EE59F4D724F1488500D16EA1 /* Frameworks */,
 				EE59F4D824F1488500D16EA1 /* Resources */,
+				D93791893A65A2240AD8570D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +260,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE59F50A24F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platformTests" */;
 			buildPhases = (
+				18375071053390ED95C0B16C /* [CP] Check Pods Manifest.lock */,
 				EE59F4EF24F1488600D16EA1 /* Sources */,
 				EE59F4F024F1488600D16EA1 /* Frameworks */,
 				EE59F4F124F1488600D16EA1 /* Resources */,
@@ -235,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE59F50D24F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platformUITests" */;
 			buildPhases = (
+				8660E6A64D95F51A41E05C82 /* [CP] Check Pods Manifest.lock */,
 				EE59F4FA24F1488600D16EA1 /* Sources */,
 				EE59F4FB24F1488600D16EA1 /* Frameworks */,
 				EE59F4FC24F1488600D16EA1 /* Resources */,
+				1ADB81AC8F404BEDD613F229 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +364,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18375071053390ED95C0B16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Micro blogging platformTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ADB81AC8F404BEDD613F229 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Micro blogging platform-Micro blogging platformUITests/Pods-Micro blogging platform-Micro blogging platformUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Micro blogging platform-Micro blogging platformUITests/Pods-Micro blogging platform-Micro blogging platformUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Micro blogging platform-Micro blogging platformUITests/Pods-Micro blogging platform-Micro blogging platformUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8660E6A64D95F51A41E05C82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Micro blogging platform-Micro blogging platformUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		898349DC3185CCA030B8A539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Micro blogging platform-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93791893A65A2240AD8570D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Micro blogging platform/Pods-Micro blogging platform-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Micro blogging platform/Pods-Micro blogging platform-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Micro blogging platform/Pods-Micro blogging platform-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE59F4D624F1488500D16EA1 /* Sources */ = {
@@ -492,6 +641,7 @@
 		};
 		EE59F50824F1488600D16EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AACD34E58249A8074BA06F /* Pods-Micro blogging platform.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +661,7 @@
 		};
 		EE59F50924F1488600D16EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CB73D63F984694E12996906 /* Pods-Micro blogging platform.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +681,7 @@
 		};
 		EE59F50B24F1488600D16EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29DA584E7F4DE3FA55D0F2E9 /* Pods-Micro blogging platformTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +703,7 @@
 		};
 		EE59F50C24F1488600D16EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B883F3CBA6E1AD36CD2DE218 /* Pods-Micro blogging platformTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +725,7 @@
 		};
 		EE59F50E24F1488600D16EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7A98C3977958D348EA262F /* Pods-Micro blogging platform-Micro blogging platformUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +745,7 @@
 		};
 		EE59F50F24F1488600D16EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD2396326403FA9EED0592A /* Pods-Micro blogging platform-Micro blogging platformUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

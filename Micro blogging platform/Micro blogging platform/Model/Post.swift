@@ -39,7 +39,7 @@ struct Post: Decodable, Identifiable {
         - imageUrl: The image URL, that store a picture representing the post
         - authorId: The associated Author unique identifier
      
-     - Returns: A simple post object to work with
+     - Returns: A simple Post object to work with
      */
     init(id: Int, date: String, title: String, body: String, imageUrl: URL, authorId: Int) {
         self.id = id
@@ -50,7 +50,7 @@ struct Post: Decodable, Identifiable {
         self.authorId = authorId
     }
     
-    /// A mapping between the post attributes and the fields in the Json response
+    /// A mapping between the Post attributes and the fields in the Json response
     enum CodigKeys: String, CodingKey {
         case id = "id"
         case date = "date"

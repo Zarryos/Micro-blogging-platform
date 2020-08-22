@@ -20,7 +20,7 @@ struct PostsList: View {
     var body: some View {
         Section(header: Text("List of posts").font(.title), content: {
             List (postsObservable.posts) { post in
-                NavigationLink(destination: CommentsList(postId: post.id)) {
+                NavigationLink(destination: PostDetails(post: post)) {
                     PostRow(post: post)
                 }
             }

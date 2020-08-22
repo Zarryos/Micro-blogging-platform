@@ -9,7 +9,13 @@
 import SwiftUI
 
 struct CommentsList: View {
-    @ObservedObject var commentsObservable = CommentObservable()
+    var postId: Int
+    @ObservedObject var commentsObservable: CommentObservable
+    
+    init(postId: Int) {
+        self.postId = postId
+        commentsObservable = CommentObservable(postId: postId)
+    }
     
     var body: some View {
         List (commentsObservable.comments) { comment in
@@ -20,6 +26,6 @@ struct CommentsList: View {
 
 struct CommentList_Previews: PreviewProvider {
     static var previews: some View {
-        CommentsList()
+        CommentsList(postId: 0)
     }
 }

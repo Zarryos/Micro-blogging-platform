@@ -12,12 +12,18 @@ import Alamofire
 class CommentObservable: ObservableObject {
     @Published var comments = [Comment]()
     
-    init(postId: Int? = nil) {
-        getPostComments(postId)
+    init(postId: Int? = nil, displayOrder: DisplayOrder = .descending) {
+        getPostComments(postId, displayOrder)
     }
     
-    fileprivate func getPostComments (_ postId: Int? = nil) {
-        AF.request("https://sym-json-server.herokuapp.com/comments")
+    fileprivate func getPostComments (_ postId: Int? = nil, _ displayOrder: DisplayOrder = .descending) {
+        var urlString = "https://sym-json-server.herokuapp.com/comments?"
+        if postId != nil {
+            urlString += "postId=" + String(postId!) + "&"
+        }
+        urlString += "_sort=date&_order=" + displayOrder.rawValue
+    
+        AF.request(urlString)
             .validate()
             .responseDecodable(of: [Comment].self) { response in
                 guard let fetchedComments = response.value else { return }

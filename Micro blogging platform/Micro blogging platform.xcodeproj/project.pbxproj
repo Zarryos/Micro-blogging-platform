@@ -28,6 +28,7 @@
 		EE59F52C24F154B100D16EA1 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52B24F154B100D16EA1 /* PostList.swift */; };
 		EE59F53024F157FF00D16EA1 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52F24F157FF00D16EA1 /* AppNavigationView.swift */; };
 		EE59F53224F1592F00D16EA1 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F53124F1592F00D16EA1 /* Comment.swift */; };
+		EE59F53424F1598400D16EA1 /* CommentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F53324F1598400D16EA1 /* CommentRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		EE59F52B24F154B100D16EA1 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		EE59F52F24F157FF00D16EA1 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
 		EE59F53124F1592F00D16EA1 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		EE59F53324F1598400D16EA1 /* CommentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,8 +267,8 @@
 		EE59F52324F1535400D16EA1 /* Post */ = {
 			isa = PBXGroup;
 			children = (
-				EE59F52524F1538A00D16EA1 /* PostRow.swift */,
 				EE59F52B24F154B100D16EA1 /* PostList.swift */,
+				EE59F52524F1538A00D16EA1 /* PostRow.swift */,
 			);
 			path = Post;
 			sourceTree = "<group>";
@@ -274,6 +276,7 @@
 		EE59F52424F1535A00D16EA1 /* Comment */ = {
 			isa = PBXGroup;
 			children = (
+				EE59F53324F1598400D16EA1 /* CommentRow.swift */,
 			);
 			path = Comment;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,
 				EE59F52624F1538A00D16EA1 /* PostRow.swift in Sources */,
 				EE59F53024F157FF00D16EA1 /* AppNavigationView.swift in Sources */,
+				EE59F53424F1598400D16EA1 /* CommentRow.swift in Sources */,
 				EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

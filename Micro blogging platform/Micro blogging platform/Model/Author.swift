@@ -14,7 +14,7 @@ struct Author: Decodable, Identifiable {
     var id: Int
     /// Name
     var name: String
-    /// UserName
+    /// User name
     var userName: String
     /// Email
     var email: String
@@ -33,7 +33,7 @@ struct Author: Decodable, Identifiable {
         - avatarUrl: The author avatar URL, that store the avatar picture
         - address: The author coordinates
      
-     - Returns: A simple author object to work with
+     - Returns: A simple Author object to work with
      */
     init(id: Int, name: String, userName: String, email: String, avatarUrl: URL, address: AuthorCoordinate) {
         self.id = id
@@ -44,7 +44,7 @@ struct Author: Decodable, Identifiable {
         self.address = address
     }
     
-    /// A mapping between the author attributes and the fields in the Json response
+    /// A mapping between the Author attributes and the fields in the Json response
     enum CodigKeys: String, CodingKey {
         case id = "id"
         case name = "name"
@@ -73,7 +73,7 @@ struct AuthorCoordinate: Decodable {
         self.longitude = longitude
     }
     
-    /// A mapping between the author coordinates attributes and the fields in the Json response
+    /// A mapping between the AuthorCoordinates attributes and the fields in the Json response
     enum CodigKeys: String, CodingKey {
         case latitude = "latitude"
         case longitude = "longitude"

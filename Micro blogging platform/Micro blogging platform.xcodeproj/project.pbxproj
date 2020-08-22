@@ -27,6 +27,7 @@
 		EE59F52A24F1545700D16EA1 /* PostObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52924F1545700D16EA1 /* PostObservable.swift */; };
 		EE59F52C24F154B100D16EA1 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52B24F154B100D16EA1 /* PostList.swift */; };
 		EE59F53024F157FF00D16EA1 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F52F24F157FF00D16EA1 /* AppNavigationView.swift */; };
+		EE59F53224F1592F00D16EA1 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F53124F1592F00D16EA1 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		EE59F52924F1545700D16EA1 /* PostObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostObservable.swift; sourceTree = "<group>"; };
 		EE59F52B24F154B100D16EA1 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		EE59F52F24F157FF00D16EA1 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
+		EE59F53124F1592F00D16EA1 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 			children = (
 				EE59F51A24F14BA400D16EA1 /* Author.swift */,
 				EE59F52024F1523D00D16EA1 /* Post.swift */,
+				EE59F53124F1592F00D16EA1 /* Comment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 				EE59F52124F1523D00D16EA1 /* Post.swift in Sources */,
 				EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */,
 				EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */,
+				EE59F53224F1592F00D16EA1 /* Comment.swift in Sources */,
 				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,
 				EE59F52624F1538A00D16EA1 /* PostRow.swift in Sources */,
 				EE59F53024F157FF00D16EA1 /* AppNavigationView.swift in Sources */,

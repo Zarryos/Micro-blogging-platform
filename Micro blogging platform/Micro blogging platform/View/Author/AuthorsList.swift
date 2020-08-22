@@ -12,11 +12,9 @@ struct AuthorsList: View {
     @ObservedObject var authorsObservable = AuthorObservable()
     
     var body: some View {
-        NavigationView {
-            List (authorsObservable.authors) { author in
-                NavigationLink(destination: PostList()) {
-                    AuthorRow(author: author)
-                }
+        List (authorsObservable.authors) { author in
+            NavigationLink(destination: PostList()) {
+                AuthorRow(author: author)
             }
         }
     }

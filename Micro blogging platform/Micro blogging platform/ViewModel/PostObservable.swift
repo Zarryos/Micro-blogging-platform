@@ -17,7 +17,13 @@ class PostObservable: ObservableObject {
     }
     
     fileprivate func getAuthorPosts (_ authorId: Int? = nil) {
-        AF.request("https://sym-json-server.herokuapp.com/posts")
+        var urlString = "https://sym-json-server.herokuapp.com/posts"
+        
+        if authorId != nil {
+            urlString += "?authorId=" + String(authorId!)
+        }
+        
+        AF.request(urlString)
             .validate()
             .responseDecodable(of: [Post].self) { response in
                 guard let fetchedPosts = response.value else { return }

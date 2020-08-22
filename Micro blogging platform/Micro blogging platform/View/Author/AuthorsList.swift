@@ -13,7 +13,7 @@ struct AuthorsList: View {
     
     var body: some View {
         List (authorsObservable.authors) { author in
-            NavigationLink(destination: PostsList()) {
+            NavigationLink(destination: PostsList(authorId: author.id)) {
                 AuthorRow(author: author)
             }
         }

@@ -9,7 +9,13 @@
 import SwiftUI
 
 struct PostsList: View {
-    @ObservedObject var postsObservable = PostObservable()
+    var authorId: Int
+    @ObservedObject var postsObservable: PostObservable
+    
+    init(authorId: Int) {
+        self.authorId = authorId
+        postsObservable = PostObservable(authorId: authorId)
+    }
     
     var body: some View {
         Section(header: Text("List of posts").font(.title), content: {
@@ -24,6 +30,6 @@ struct PostsList: View {
 
 struct PostList_Previews: PreviewProvider {
     static var previews: some View {
-        PostsList()
+        PostsList(authorId: 0)
     }
 }

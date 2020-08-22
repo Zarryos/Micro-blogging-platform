@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */; };
+		EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */; };
+		EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */; };
+		EE59F4E524F1488500D16EA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4E424F1488500D16EA1 /* ContentView.swift */; };
+		EE59F4E724F1488600D16EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4E624F1488600D16EA1 /* Assets.xcassets */; };
+		EE59F4EA24F1488600D16EA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4E924F1488600D16EA1 /* Preview Assets.xcassets */; };
+		EE59F4ED24F1488600D16EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4EB24F1488600D16EA1 /* LaunchScreen.storyboard */; };
+		EE59F4F824F1488600D16EA1 /* Micro_blogging_platformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */; };
+		EE59F50324F1488600D16EA1 /* Micro_blogging_platformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE59F4F424F1488600D16EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE59F4D224F1488500D16EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE59F4D924F1488500D16EA1;
+			remoteInfo = "Micro blogging platform";
+		};
+		EE59F4FF24F1488600D16EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE59F4D224F1488500D16EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE59F4D924F1488500D16EA1;
+			remoteInfo = "Micro blogging platform";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE59F4DA24F1488500D16EA1 /* Micro blogging platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Micro blogging platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE59F4E224F1488500D16EA1 /* Micro_blogging_platform.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Micro_blogging_platform.xcdatamodel; sourceTree = "<group>"; };
+		EE59F4E424F1488500D16EA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE59F4E624F1488600D16EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE59F4E924F1488600D16EA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE59F4EC24F1488600D16EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE59F4EE24F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE59F4F324F1488600D16EA1 /* Micro blogging platformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Micro blogging platformTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_blogging_platformTests.swift; sourceTree = "<group>"; };
+		EE59F4F924F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE59F4FE24F1488600D16EA1 /* Micro blogging platformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Micro blogging platformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_blogging_platformUITests.swift; sourceTree = "<group>"; };
+		EE59F50424F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE59F4D724F1488500D16EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE59F4F024F1488600D16EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE59F4FB24F1488600D16EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE59F4D124F1488500D16EA1 = {
+			isa = PBXGroup;
+			children = (
+				EE59F4DC24F1488500D16EA1 /* Micro blogging platform */,
+				EE59F4F624F1488600D16EA1 /* Micro blogging platformTests */,
+				EE59F50124F1488600D16EA1 /* Micro blogging platformUITests */,
+				EE59F4DB24F1488500D16EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE59F4DB24F1488500D16EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F4DA24F1488500D16EA1 /* Micro blogging platform.app */,
+				EE59F4F324F1488600D16EA1 /* Micro blogging platformTests.xctest */,
+				EE59F4FE24F1488600D16EA1 /* Micro blogging platformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE59F4DC24F1488500D16EA1 /* Micro blogging platform */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F4DD24F1488500D16EA1 /* AppDelegate.swift */,
+				EE59F4DF24F1488500D16EA1 /* SceneDelegate.swift */,
+				EE59F4E424F1488500D16EA1 /* ContentView.swift */,
+				EE59F4E624F1488600D16EA1 /* Assets.xcassets */,
+				EE59F4EB24F1488600D16EA1 /* LaunchScreen.storyboard */,
+				EE59F4EE24F1488600D16EA1 /* Info.plist */,
+				EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */,
+				EE59F4E824F1488600D16EA1 /* Preview Content */,
+			);
+			path = "Micro blogging platform";
+			sourceTree = "<group>";
+		};
+		EE59F4E824F1488600D16EA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F4E924F1488600D16EA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE59F4F624F1488600D16EA1 /* Micro blogging platformTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */,
+				EE59F4F924F1488600D16EA1 /* Info.plist */,
+			);
+			path = "Micro blogging platformTests";
+			sourceTree = "<group>";
+		};
+		EE59F50124F1488600D16EA1 /* Micro blogging platformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */,
+				EE59F50424F1488600D16EA1 /* Info.plist */,
+			);
+			path = "Micro blogging platformUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE59F4D924F1488500D16EA1 /* Micro blogging platform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE59F50724F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platform" */;
+			buildPhases = (
+				EE59F4D624F1488500D16EA1 /* Sources */,
+				EE59F4D724F1488500D16EA1 /* Frameworks */,
+				EE59F4D824F1488500D16EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Micro blogging platform";
+			productName = "Micro blogging platform";
+			productReference = EE59F4DA24F1488500D16EA1 /* Micro blogging platform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE59F4F224F1488600D16EA1 /* Micro blogging platformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE59F50A24F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platformTests" */;
+			buildPhases = (
+				EE59F4EF24F1488600D16EA1 /* Sources */,
+				EE59F4F024F1488600D16EA1 /* Frameworks */,
+				EE59F4F124F1488600D16EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE59F4F524F1488600D16EA1 /* PBXTargetDependency */,
+			);
+			name = "Micro blogging platformTests";
+			productName = "Micro blogging platformTests";
+			productReference = EE59F4F324F1488600D16EA1 /* Micro blogging platformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE59F4FD24F1488600D16EA1 /* Micro blogging platformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE59F50D24F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platformUITests" */;
+			buildPhases = (
+				EE59F4FA24F1488600D16EA1 /* Sources */,
+				EE59F4FB24F1488600D16EA1 /* Frameworks */,
+				EE59F4FC24F1488600D16EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE59F50024F1488600D16EA1 /* PBXTargetDependency */,
+			);
+			name = "Micro blogging platformUITests";
+			productName = "Micro blogging platformUITests";
+			productReference = EE59F4FE24F1488600D16EA1 /* Micro blogging platformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE59F4D224F1488500D16EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = user177985;
+				TargetAttributes = {
+					EE59F4D924F1488500D16EA1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					EE59F4F224F1488600D16EA1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EE59F4D924F1488500D16EA1;
+					};
+					EE59F4FD24F1488600D16EA1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = EE59F4D924F1488500D16EA1;
+					};
+				};
+			};
+			buildConfigurationList = EE59F4D524F1488500D16EA1 /* Build configuration list for PBXProject "Micro blogging platform" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE59F4D124F1488500D16EA1;
+			productRefGroup = EE59F4DB24F1488500D16EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE59F4D924F1488500D16EA1 /* Micro blogging platform */,
+				EE59F4F224F1488600D16EA1 /* Micro blogging platformTests */,
+				EE59F4FD24F1488600D16EA1 /* Micro blogging platformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE59F4D824F1488500D16EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE59F4ED24F1488600D16EA1 /* LaunchScreen.storyboard in Resources */,
+				EE59F4EA24F1488600D16EA1 /* Preview Assets.xcassets in Resources */,
+				EE59F4E724F1488600D16EA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE59F4F124F1488600D16EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE59F4FC24F1488600D16EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE59F4D624F1488500D16EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */,
+				EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */,
+				EE59F4E524F1488500D16EA1 /* ContentView.swift in Sources */,
+				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE59F4EF24F1488600D16EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE59F4F824F1488600D16EA1 /* Micro_blogging_platformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE59F4FA24F1488600D16EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE59F50324F1488600D16EA1 /* Micro_blogging_platformUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE59F4F524F1488600D16EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE59F4D924F1488500D16EA1 /* Micro blogging platform */;
+			targetProxy = EE59F4F424F1488600D16EA1 /* PBXContainerItemProxy */;
+		};
+		EE59F50024F1488600D16EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE59F4D924F1488500D16EA1 /* Micro blogging platform */;
+			targetProxy = EE59F4FF24F1488600D16EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE59F4EB24F1488600D16EA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE59F4EC24F1488600D16EA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE59F50524F1488600D16EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE59F50624F1488600D16EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE59F50824F1488600D16EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Micro blogging platform/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Micro blogging platform/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.florian.Micro-blogging-platform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE59F50924F1488600D16EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Micro blogging platform/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Micro blogging platform/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.florian.Micro-blogging-platform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE59F50B24F1488600D16EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Micro blogging platformTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.florian.Micro-blogging-platformTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Micro blogging platform.app/Micro blogging platform";
+			};
+			name = Debug;
+		};
+		EE59F50C24F1488600D16EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Micro blogging platformTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.florian.Micro-blogging-platformTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Micro blogging platform.app/Micro blogging platform";
+			};
+			name = Release;
+		};
+		EE59F50E24F1488600D16EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Micro blogging platformUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.florian.Micro-blogging-platformUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Micro blogging platform";
+			};
+			name = Debug;
+		};
+		EE59F50F24F1488600D16EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Micro blogging platformUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.florian.Micro-blogging-platformUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Micro blogging platform";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE59F4D524F1488500D16EA1 /* Build configuration list for PBXProject "Micro blogging platform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE59F50524F1488600D16EA1 /* Debug */,
+				EE59F50624F1488600D16EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE59F50724F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE59F50824F1488600D16EA1 /* Debug */,
+				EE59F50924F1488600D16EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE59F50A24F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE59F50B24F1488600D16EA1 /* Debug */,
+				EE59F50C24F1488600D16EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE59F50D24F1488600D16EA1 /* Build configuration list for PBXNativeTarget "Micro blogging platformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE59F50E24F1488600D16EA1 /* Debug */,
+				EE59F50F24F1488600D16EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE59F4E124F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE59F4E224F1488500D16EA1 /* Micro_blogging_platform.xcdatamodel */,
+			);
+			currentVersion = EE59F4E224F1488500D16EA1 /* Micro_blogging_platform.xcdatamodel */;
+			path = Micro_blogging_platform.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE59F4D224F1488500D16EA1 /* Project object */;
+}

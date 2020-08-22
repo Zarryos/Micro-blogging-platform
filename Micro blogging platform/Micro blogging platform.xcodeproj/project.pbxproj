@@ -17,6 +17,7 @@
 		EE59F50324F1488600D16EA1 /* Micro_blogging_platformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */; };
 		EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51824F14A3300D16EA1 /* AuthorsList.swift */; };
 		EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51A24F14BA400D16EA1 /* Author.swift */; };
+		EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		EE59F50424F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE59F51824F14A3300D16EA1 /* AuthorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsList.swift; sourceTree = "<group>"; };
 		EE59F51A24F14BA400D16EA1 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,7 @@
 			children = (
 				EE59F51524F149AC00D16EA1 /* Model */,
 				EE59F51424F149AA00D16EA1 /* View */,
-				EE59F51324F149A700D16EA1 /* Controller */,
+				EE59F51324F149A700D16EA1 /* ViewModel */,
 				EE59F51224F149A300D16EA1 /* Helper */,
 				EE59F51124F1499F00D16EA1 /* Extension */,
 				EE59F51024F1499A00D16EA1 /* Ressources */,
@@ -167,17 +169,18 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		EE59F51324F149A700D16EA1 /* Controller */ = {
+		EE59F51324F149A700D16EA1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controller;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		EE59F51424F149AA00D16EA1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				EE59F51824F14A3300D16EA1 /* AuthorsList.swift */,
+				EE59F51C24F14CCF00D16EA1 /* AuthorRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				EE59F4DE24F1488500D16EA1 /* AppDelegate.swift in Sources */,
 				EE59F4E324F1488500D16EA1 /* Micro_blogging_platform.xcdatamodeld in Sources */,
 				EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */,
+				EE59F51D24F14CCF00D16EA1 /* AuthorRow.swift in Sources */,
 				EE59F4E024F1488500D16EA1 /* SceneDelegate.swift in Sources */,
 				EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */,
 			);

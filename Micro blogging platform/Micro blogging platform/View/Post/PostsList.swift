@@ -14,7 +14,9 @@ struct PostsList: View {
     var body: some View {
         Section(header: Text("List of posts").font(.title), content: {
             List (postsObservable.posts) { post in
-                PostRow(post: post)
+                NavigationLink(destination: CommentsList()) {
+                    PostRow(post: post)
+                }
             }
         })
     }

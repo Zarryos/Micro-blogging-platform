@@ -8,8 +8,7 @@
 
 import SwiftUI
 
-
-struct CommentList: View {
+struct CommentsList: View {
     @ObservedObject var commentsObservable = CommentObservable()
     
     var body: some View {
@@ -21,6 +20,6 @@ struct CommentList: View {
 
 struct CommentList_Previews: PreviewProvider {
     static var previews: some View {
-        CommentList()
+        CommentsList()
     }
 }

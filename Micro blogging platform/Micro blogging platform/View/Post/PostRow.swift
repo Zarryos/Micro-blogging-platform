@@ -28,6 +28,10 @@ struct PostRow: View {
                 Text(post.title)
                     .font(.headline)
                     .multilineTextAlignment(.leading)
+                
+                Text(post.formattedDate?.toString() ?? "Unkown date")
+                    .font(.subheadline)
+                    .foregroundColor(Color.gray)
             }
         }
     }

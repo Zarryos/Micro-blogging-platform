@@ -34,11 +34,11 @@ This was two of the news features introduced this past two years I wanted to exp
 ### Technical choices  
 #### [SwiftUI](https://developer.apple.com/xcode/swiftui/)  
 I choosed to work with SwiftUI, since I'm more used to storyboard and this was a good opportunity to learn this way of creating views.  
-#### Alamofire  
+#### [Alamofire](https://github.com/Alamofire/Alamofire)
 The standard networking pod who is still active and the most reliable I've used.  
 #### AsyncImage  
-I'm aware that AlamofireImage handle caching and async image fetching easily, but I've decided to make my own implementation of it since this was an opportunity to refresh my memory on iOS caching.  
-#### Observable  
+I'm aware that [AlamofireImage](https://github.com/Alamofire/AlamofireImage) handle caching and async image fetching easily, but I've decided to make my own implementation of it since this was an opportunity to refresh my memory on iOS caching.  
+#### [Observable](https://developer.apple.com/documentation/combine/observableobject)
 I've used ObservableObject mostly because it's the new way of observing objects, and this app is designed to be improved. In a established iOS app i would probably recommend RxSwift at the time i wrote this, since it will unsure the compatibility with older versions of iOS.  
 
 ### Project possible improvements  
@@ -53,4 +53,4 @@ The only limits that tests have is the component's usage thought by the develope
 
 ## Contribute
 Even if this app shows only some basics, i'm always trying to improve and any feedback would be appreciated.  
-If you find any issue or possible improvement with the code feel free to leave an issue, I'll always appreciate contibutor's point of view ! 
+If you find any issue or possible improvement with the code feel free to leave an [issue](https://github.com/Zarryos/Micro-blogging-platform/issues). I'll always appreciate contibutor's point of view ! 

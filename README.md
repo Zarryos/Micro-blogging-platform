@@ -41,6 +41,10 @@ I'm aware that [AlamofireImage](https://github.com/Alamofire/AlamofireImage) han
 #### [Observable](https://developer.apple.com/documentation/combine/observableobject)
 I've used ObservableObject mostly because it's the new way of observing objects, and this app is designed to be improved. In a established iOS app i would probably recommend RxSwift at the time i wrote this, since it will unsure the compatibility with older versions of iOS.  
 
+### Versionning
+To focus on the project itself, I've worked directly on master. This is not the best thing to do and you may not do this at home.  
+In a professional working environment I'm working with branches and merge request, I regret my choice now since this project history does not demonstrate that point.
+
 ### Project possible improvements  
 #### UI/UX  
 - I did not use the author coordinates, as I think putting a marker on a map would not be a useful information in this app. However, I would have used either a city/country string send by the api or made a call on GoogleAPI to get an address from a set of coordinates.  
@@ -49,7 +53,7 @@ I've used ObservableObject mostly because it's the new way of observing objects,
 #### CoreData  
 I decided to not include CoreData in this version, since there is already some image caching.  However, if I had more time I would use it (because I'm always assuming the server response is slow).  
 #### Testing
-The only limits that tests have is the component's usage thought by the developers. In order to keep sleeping this weekend I've decided to implement two tests : Objects inits & APICalls measured. Of course, there could be a lot more tests implemented.
+The only limits that tests have is the component's usage thought by the developers. In order to *keep sleeping this weekend* I've decided to implement two tests : Objects inits & APICalls measured. Of course, there could be a lot more tests implemented.
 
 ## Time spent
 The repartition of time used to make this project is the following : 
@@ -60,7 +64,7 @@ The repartition of time used to make this project is the following :
 - [x] 3 hours on project documentation
 
 For a total of 13.5 hours.  
-I've enjoyed this time, it's good working with Swift again !  
+*I've enjoyed this time, it's good working with Swift again !* 
 
 ## Contribute
 Even if this app shows only some basics, i'm always trying to improve and any feedback would be appreciated.  

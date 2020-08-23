@@ -24,7 +24,7 @@ https://github.com/Zarryos/Micro-blogging-platform.git
 
 ## Notes on project development  
 ### Some context  
-At the time I wrote this, I didn't have the opportunity to work on a profesional iOS project for the past two years.  
+At the time I wrote this, I didn't have the opportunity to work on a profesional iOS project for the past two years (but i had 2.5 years of experience on it prior this).  
 But to keep me in touch with iOS development, I've completed two micro-projects this past week :   
 - [x] https://developer.apple.com/tutorials/swiftui/  
 - [x] https://www.raywenderlich.com/7864801-combine-getting-started  
@@ -50,6 +50,17 @@ I've used ObservableObject mostly because it's the new way of observing objects,
 I decided to not include CoreData in this version, since there is already some image caching.  However, if I had more time I would use it (because I'm always assuming the server response is slow).  
 #### Testing
 The only limits that tests have is the component's usage thought by the developers. In order to keep sleeping this weekend I've decided to implement two tests : Objects inits & APICalls measured. Of course, there could be a lot more tests implemented.
+
+## Time spent
+The repartition of time used to make this project is the following : 
+- [x] 4 hours initial researchs on SwiftUI/Combine documentation, who did indirectly helped in this project. 
+- [x] 1 hour on project design, app scketch & technical choices
+- [x] 5 hours on main project development
+- [x] 0.5 hour on tests
+- [x] 3 hours on project documentation
+
+For a total of 13.5 hours.  
+I've enjoyed this time, it's good working with Swift again !  
 
 ## Contribute
 Even if this app shows only some basics, i'm always trying to improve and any feedback would be appreciated.  

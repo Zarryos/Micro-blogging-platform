@@ -23,7 +23,7 @@
 		EE59F4E724F1488600D16EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4E624F1488600D16EA1 /* Assets.xcassets */; };
 		EE59F4EA24F1488600D16EA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4E924F1488600D16EA1 /* Preview Assets.xcassets */; };
 		EE59F4ED24F1488600D16EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE59F4EB24F1488600D16EA1 /* LaunchScreen.storyboard */; };
-		EE59F4F824F1488600D16EA1 /* Micro_blogging_platformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */; };
+		EE59F4F824F1488600D16EA1 /* ModelInitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F4F724F1488600D16EA1 /* ModelInitTests.swift */; };
 		EE59F50324F1488600D16EA1 /* Micro_blogging_platformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */; };
 		EE59F51924F14A3300D16EA1 /* AuthorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51824F14A3300D16EA1 /* AuthorsList.swift */; };
 		EE59F51B24F14BA400D16EA1 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F51A24F14BA400D16EA1 /* Author.swift */; };
@@ -38,6 +38,7 @@
 		EE59F53424F1598400D16EA1 /* CommentRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F53324F1598400D16EA1 /* CommentRow.swift */; };
 		EE59F53624F15B0200D16EA1 /* CommentObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F53524F15B0200D16EA1 /* CommentObservable.swift */; };
 		EE59F53824F15BDC00D16EA1 /* CommentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE59F53724F15BDC00D16EA1 /* CommentsList.swift */; };
+		EE62C3D924F2B1D2009031F0 /* APICallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE62C3D824F2B1D2009031F0 /* APICallTests.swift */; };
 		EEB7406924F15F7C00F2D5E7 /* DisplayOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB7406824F15F7C00F2D5E7 /* DisplayOrder.swift */; };
 /* End PBXBuildFile section */
 
@@ -84,7 +85,7 @@
 		EE59F4EC24F1488600D16EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE59F4EE24F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE59F4F324F1488600D16EA1 /* Micro blogging platformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Micro blogging platformTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_blogging_platformTests.swift; sourceTree = "<group>"; };
+		EE59F4F724F1488600D16EA1 /* ModelInitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelInitTests.swift; sourceTree = "<group>"; };
 		EE59F4F924F1488600D16EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE59F4FE24F1488600D16EA1 /* Micro blogging platformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Micro blogging platformUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE59F50224F1488600D16EA1 /* Micro_blogging_platformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Micro_blogging_platformUITests.swift; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 		EE59F53324F1598400D16EA1 /* CommentRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentRow.swift; sourceTree = "<group>"; };
 		EE59F53524F15B0200D16EA1 /* CommentObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentObservable.swift; sourceTree = "<group>"; };
 		EE59F53724F15BDC00D16EA1 /* CommentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsList.swift; sourceTree = "<group>"; };
+		EE62C3D824F2B1D2009031F0 /* APICallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallTests.swift; sourceTree = "<group>"; };
 		EEB7406824F15F7C00F2D5E7 /* DisplayOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,7 +218,8 @@
 		EE59F4F624F1488600D16EA1 /* Micro blogging platformTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE59F4F724F1488600D16EA1 /* Micro_blogging_platformTests.swift */,
+				EE59F4F724F1488600D16EA1 /* ModelInitTests.swift */,
+				EE62C3D824F2B1D2009031F0 /* APICallTests.swift */,
 				EE59F4F924F1488600D16EA1 /* Info.plist */,
 			);
 			path = "Micro blogging platformTests";
@@ -589,7 +592,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE59F4F824F1488600D16EA1 /* Micro_blogging_platformTests.swift in Sources */,
+				EE62C3D924F2B1D2009031F0 /* APICallTests.swift in Sources */,
+				EE59F4F824F1488600D16EA1 /* ModelInitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

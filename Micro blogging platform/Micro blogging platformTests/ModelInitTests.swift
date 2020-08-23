@@ -1,5 +1,5 @@
 //
-//  Micro_blogging_platformTests.swift
+//  ModelInitTests.swift
 //  Micro blogging platformTests
 //
 //  Created by user177985 on 8/22/20.

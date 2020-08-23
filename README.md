@@ -22,6 +22,11 @@ Use Git or checkout with SVN using the web URL :
 https://github.com/Zarryos/Micro-blogging-platform.git
 ```
 
+From a terminal, go to the project folder and run : 
+```
+pod intall
+```
+
 ## Notes on project development  
 ### Some context  
 At the time I wrote this, I didn't have the opportunity to work on a profesional iOS project for the past two years (but i had 2.5 years of experience on it prior this).  

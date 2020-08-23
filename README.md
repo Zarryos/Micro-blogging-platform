@@ -1,8 +1,7 @@
 # Micro-blogging-platform
 
-[![Swift Version][swift-image]][swift-url]  
-[![Build Status][travis-image]][travis-url]  
-[![License][license-image]][license-url]  
+[![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This app is designed to be the base app of a blogging platform, easily modifiable to add more features in the future.  
 

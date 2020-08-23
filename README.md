@@ -32,8 +32,8 @@ But to keep me in touch with iOS development, I've completed two micro-projects 
 This was two of the news features introduced this past two years I wanted to explore before doing this project.  
 
 ### Technical choices  
-#### SwiftUI  
-I choose to work with SwiftUI, since I'm more used to storyboard and this was a good opportunity to learn this way of creating views.  
+#### [SwiftUI](https://developer.apple.com/xcode/swiftui/)  
+I choosed to work with SwiftUI, since I'm more used to storyboard and this was a good opportunity to learn this way of creating views.  
 #### Alamofire  
 The standard networking pod who is still active and the most reliable I've used.  
 #### AsyncImage  

@@ -24,7 +24,7 @@ https://github.com/Zarryos/Micro-blogging-platform.git
 
 From a terminal, go to the project folder and run : 
 ```
-pod intall
+pod install
 ```
 
 ## Notes on project development  

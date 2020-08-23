@@ -18,13 +18,11 @@ struct PostsList: View {
     }
     
     var body: some View {
-        Section(header: Text("List of posts").font(.title), content: {
-            List (postsObservable.posts) { post in
-                NavigationLink(destination: PostDetails(post: post)) {
-                    PostRow(post: post)
-                }
+        List (postsObservable.posts) { post in
+            NavigationLink(destination: PostDetails(post: post)) {
+                PostRow(post: post)
             }
-        })
+        }
     }
 }
 

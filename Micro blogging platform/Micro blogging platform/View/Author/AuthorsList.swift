@@ -17,7 +17,7 @@ struct AuthorsList: View {
                 AuthorRow(author: author)
             }
         }
-    }
+    } 
 }
 
 struct AuthorsList_Previews: PreviewProvider {

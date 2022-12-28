@@ -16,7 +16,7 @@ struct CommentRow: View {
         VStack (alignment: .leading){
             HStack {
                 AsyncImage(
-                    url: comment.avatarUrl,
+                    url: URL(string: "https://picsum.photos/32/32")!,
                     placeholder: Image("person-placeholder").resizable(),
                     cache: commentImageCache,
                     configuration: { $0.resizable() })
@@ -26,7 +26,7 @@ struct CommentRow: View {
                     .overlay(Circle().stroke(Color.white, lineWidth: 2))
                 
                  VStack (alignment: .leading) {
-                     Text(comment.userName)
+                     Text(comment.name)
                          .font(.headline)
                      
                      Text(comment.email)
@@ -36,19 +36,13 @@ struct CommentRow: View {
                  Spacer()
             }
             
-            VStack (alignment: .leading) {
-                Text("\"" + comment.body + "\"")
-                
-                Text(comment.formattedDate?.toString() ?? "Unkown date")
-                    .font(.footnote)
-                    .foregroundColor(Color.gray)
-            }
+            Text("\"" + comment.body + "\"")
         }.padding()
     }
 }
 
 struct CommentRow_Previews: PreviewProvider {
     static var previews: some View {
-        CommentRow(comment: Comment(id: 0, date: "2017-09-07T09:58:50.972Z", body: "That's an amazing post!", userName: "Zarryos", email: "test@email.com", avatarUrl: URL(string: "https://s3.amazonaws.com/uifaces/faces/twitter/nutzumi/128.jpg")!, postId: 0)).previewLayout(.fixed(width: 300, height: 100))
+        CommentRow(comment: Comment(id: 0, body: "That's an amazing post!", name: "Its my comment name", email: "test@email.com", postId: 0)).previewLayout(.fixed(width: 300, height: 100))
     }
 }

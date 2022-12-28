@@ -15,7 +15,7 @@ struct AuthorRow: View {
     var body: some View {
         HStack {
             AsyncImage(
-                url: author.avatarUrl,
+                url: URL(string: "https://picsum.photos/64/64")!,
                 placeholder: Image("person-placeholder").resizable(),
                 cache: authorAvatarCache,
                 configuration: { $0.resizable() })
@@ -37,7 +37,7 @@ struct AuthorRow: View {
 
 struct AuthorRow_Previews: PreviewProvider {
     static var previews: some View {
-        AuthorRow(author: Author(id: 0, name: "Florian LOUVET", userName: "Zarryos", email: "test@email.com", avatarUrl: URL(string: "https://s3.amazonaws.com/uifaces/faces/twitter/nutzumi/128.jpg")!, address: AuthorCoordinate(latitude: "0", longitude: "0")))
+        AuthorRow(author: Author(id: 0, name: "Florian LOUVET", username: "Zarryos", email: "test@email.com"))
         .previewLayout(.fixed(width: 300, height: 100))
     }
 }

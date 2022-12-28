@@ -17,7 +17,7 @@ struct PostDetails: View {
             VStack (alignment: .leading) {
                     HStack {
                         AsyncImage(
-                            url: post.imageUrl,
+                            url: URL(string: "https://picsum.photos/id/146/640/480")!,
                             placeholder: Image("post-placeholder").resizable(),
                             cache: postImageCache,
                             configuration: { $0.resizable() })
@@ -25,17 +25,10 @@ struct PostDetails: View {
                             .clipShape(RoundedRectangle(cornerRadius: 8))
                             .shadow(radius: 10)
                             .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.white, lineWidth: 4))
-                                 
-                        VStack (alignment: .leading){
+                                
                             Text(post.title)
                                 .font(.headline)
                                 .multilineTextAlignment(.leading)
-                            
-                            Text(post.formattedDate?.toString() ?? "Unkown date")
-                                .font(.subheadline)
-                                .foregroundColor(Color.gray)
-                                .multilineTextAlignment(.leading)
-                        }
                         
                         Spacer()
                     }
@@ -52,6 +45,6 @@ struct PostDetails: View {
 
 struct PostDetails_Previews: PreviewProvider {
     static var previews: some View {
-        PostDetails(post: Post(id: 0, date: "20 aout 2020", title: "Title", body: "Bodyyy", imageUrl: URL(string: "https://picsum.photos/id/146/640/480")!, authorId: 0))
+        PostDetails(post: Post(id: 0, title: "Title", body: "Bodyyy", userId: 0))
     }
 }

@@ -16,7 +16,7 @@ struct AuthorDetails: View {
         VStack {
             HStack {
                     AsyncImage(
-                        url: author.avatarUrl,
+                        url: URL(string: "https://picsum.photos/64/64")!,
                         placeholder: Image("person-placeholder").resizable(),
                         cache: authorAvatarCache,
                         configuration: { $0.resizable() })
@@ -31,7 +31,7 @@ struct AuthorDetails: View {
                             .lineLimit(1)
                             .minimumScaleFactor(0.5)
                         
-                        Text(author.userName)
+                        Text(author.username)
                             .font(.headline)
                             .lineLimit(1)
                             .minimumScaleFactor(0.5)
@@ -44,13 +44,13 @@ struct AuthorDetails: View {
                 Spacer()
             }.padding(8)
             
-            PostsList(authorId: author.id)
+            PostsList(userId: author.id)
         }
     }
 }
 
 struct AuthorDetails_Previews: PreviewProvider {
     static var previews: some View {
-        AuthorDetails(author: Author(id: 0, name: "Name", userName: "UserName", email: "Email", avatarUrl: URL(string: "https://s3.amazonaws.com/uifaces/faces/twitter/nutzumi/128.jpg")!, address: AuthorCoordinate(latitude: "", longitude: "")))
+        AuthorDetails(author: Author(id: 0, name: "Name", username: "UserName", email: "Email"))
     }
 }

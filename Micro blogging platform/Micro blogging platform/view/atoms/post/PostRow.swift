@@ -15,7 +15,7 @@ struct PostRow: View {
     var body: some View {
         HStack {
             AsyncImage(
-                url: post.imageUrl,
+                url: URL(string: "https://picsum.photos/64/64")!,
                 placeholder: Image("post-placeholder").resizable(),
                 cache: postImageCache,
                 configuration: { $0.resizable() })
@@ -29,9 +29,6 @@ struct PostRow: View {
                     .font(.headline)
                     .multilineTextAlignment(.leading)
                 
-                Text(post.formattedDate?.toString() ?? "Unkown date")
-                    .font(.subheadline)
-                    .foregroundColor(Color.gray)
             }
         }
     }
@@ -39,6 +36,6 @@ struct PostRow: View {
 
 struct PostRow_Previews: PreviewProvider {
     static var previews: some View {
-        PostRow(post: Post(id: 0, date: "2017-09-07T09:58:50.972Z", title: "An amazing app is made on a lovely day", body: "I have no words", imageUrl: URL(string: "https://picsum.photos/id/146/640/480")!, authorId: 0)).previewLayout(.fixed(width: 300, height: 128))
+        PostRow(post: Post(id: 0, title: "An amazing app is made on a lovely day", body: "I have no words", userId: 0)).previewLayout(.fixed(width: 300, height: 128))
     }
 }

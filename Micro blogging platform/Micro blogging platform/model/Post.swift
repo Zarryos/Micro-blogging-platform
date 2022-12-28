@@ -12,51 +12,35 @@ import Foundation
 struct Post: Decodable, Identifiable {
     /// Unique identifier
     var id: Int
-    /// Redaction date
-    var date: String
-    /// Redaction date, casted to a Date? type
-    var formattedDate: Date? {
-        get {
-            return date.toDate()
-        }
-    }
     /// Title describing the post
     var title: String
     /// Content written by the author
     var body: String
-    /// Image URL, expecting a picture from it
-    var imageUrl: URL
     /// Associated Author unique identifier
-    var authorId: Int
+    var userId: Int
     
     /**
      Initializes a new Post  with the provided attributes
       - Parameters:
         - id: It's unique identifier
-        - date: The redaction date, string format
         - title: Title describing the post
         - body: Content of the post
-        - imageUrl: The image URL, that store a picture representing the post
-        - authorId: The associated Author unique identifier
+        - userId: The associated Author unique identifier
      
-     - Returns: A simple Post object to work with
+     - Returns: A Post object
      */
-    init(id: Int, date: String, title: String, body: String, imageUrl: URL, authorId: Int) {
+    init(id: Int, title: String, body: String, userId: Int) {
         self.id = id
-        self.date = date
         self.title = title
         self.body = body
-        self.imageUrl = imageUrl
-        self.authorId = authorId
+        self.userId = userId
     }
     
     /// A mapping between the Post attributes and the fields in the Json response
     enum CodigKeys: String, CodingKey {
         case id = "id"
-        case date = "date"
         case title = "title"
         case body = "body"
-        case imageUrl = "imageUrl"
-        case authorId = "authorId"
+        case userId = "userId"
     }
 }

@@ -12,17 +12,17 @@ import Alamofire
 class PostObservable: ObservableObject {
     @Published var posts = [Post]()
     
-    init(authorId: Int? = nil) {
-        getAuthorPosts(authorId)
+    init(userId: Int? = nil) {
+        getAuthorPosts(userId)
     }
     
-    fileprivate func getAuthorPosts (_ authorId: Int? = nil) {
-        var urlString = "https://sym-json-server.herokuapp.com/posts"
-        
-        if authorId != nil {
-            urlString += "?authorId=" + String(authorId!)
+    fileprivate func getAuthorPosts (_ userId: Int? = nil) {
+        var urlString = baseApiUrl + "/posts"
+
+        if userId != nil {
+            urlString += "?userId=" + String(userId!)
         }
-        
+    
         AF.request(urlString)
             .validate()
             .responseDecodable(of: [Post].self) { response in

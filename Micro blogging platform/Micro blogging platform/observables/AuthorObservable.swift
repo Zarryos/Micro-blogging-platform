@@ -17,7 +17,7 @@ class AuthorObservable: ObservableObject {
     }
     
     fileprivate func getAuthors () {
-        AF.request("https://sym-json-server.herokuapp.com/authors")
+        AF.request(baseApiUrl + "/users")
             .validate()
             .responseDecodable(of: [Author].self) { response in
                 guard let fetchedAuthors = response.value else { return }
